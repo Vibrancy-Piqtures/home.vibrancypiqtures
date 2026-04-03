@@ -107,9 +107,9 @@ function getPackageDetails(eventType, packageType) {
       gold: "180 Image Detailed Photobook, (3) 3-5 mins HD Highlight reel, Online Gallery."
     },
     Proposal: {
-      silver: "50 prints-Stick-on Album, (1) 3-5 mins Highlight reel, Online Gallery.",
-      platinum: "150 Image Detailed Photobook, (2) 3-5 mins HD Highlight reel, Online Gallery.",
-      gold: "180 Image Detailed Photobook, (3) 3-5 mins HD Highlight reel, Online Gallery."
+      silver: "25 prints-Stick-on Album, (1) 3-5 mins Highlight reel, Online Gallery.",
+      platinum: "50 Image Detailed Photobook, (2) 3-5 mins HD Highlight reel, Online Gallery.",
+      gold: "75 Image Detailed Photobook, (3) 3-5 mins HD Highlight reel, Online Gallery."
     },
     "Private Photography Session": {
       silver: "15 softcopy High End Editted Images, Delivered via Whatsapp.",
