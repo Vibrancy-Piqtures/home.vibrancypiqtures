@@ -1,21 +1,5 @@
 document.addEventListener('contextmenu', event => event.preventDefault());
 
-// Function to load the navbar
-document.addEventListener("DOMContentLoaded", function () {
-  fetch("Navbar/navbar.html")
-    .then(response => {
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.text();
-    })
-    .then(data => {
-      document.querySelector("#navbar-placeholder").innerHTML = data;
-    })
-    .catch(error => console.error("Error loading navbar:", error));
-});
-
-
 //More text...
 document.querySelector(".more-text").addEventListener("click", function (e) {
   e.preventDefault();
