@@ -41,7 +41,7 @@ function includeNavbar() {
       </div>
 
       <ul class="menu" id="menuList">
-        <li><a href="Index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="Index2.html">Gallery</a></li>
         <li><a href="Index3.html">Services</a></li>
         <li><a href="Index5.html">Contact</a></li>
