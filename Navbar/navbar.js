@@ -40,12 +40,12 @@ function includeNavbar() {
         </svg>
       </div>
 
-      <ul class="menu" id="menuList">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Index2.html">Gallery</a></li>
-        <li><a href="Index3.html">Services</a></li>
-        <li><a href="Index5.html">Contact</a></li>
-      </ul>
+    <ul class="menu" id="menuList">
+      <li><a href="/">Home</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
 
       <div class="search-container">
         <input type="text" placeholder="Search..." id="search-input">
