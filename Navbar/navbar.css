@@ -133,20 +133,45 @@
   width: 150px;
 }
 
-.search-container button[type="submit"] {
-  padding: 5px;
+.search-container button {
+  background: none;
   background-color: transparent;
-  cursor: pointer;
-  outline: none;
   border: none;
-  transition: color 0.1s ease-in-out;
+  outline: none;
+  box-shadow: none;
+  padding: 8px;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+  opacity: 0.85;
 }
 
-.search-container button[type="submit"] svg {
-  width: 35px;
-  height: 35px;
+.search-container button:hover {
+  opacity: 1;
+  transform: scale(1.1);
   
-  transition: transform 0.1s ease-in-out;
+  background: none;
+  background-color: transparent;
+}
+
+.search-container button:focus {
+  outline: none;
+  background: none;
+  background-color: transparent;
+}
+
+.search-container button:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.search-container button:active {
+  transform: scale(0.95);
+  opacity: 0.9;
 }
 
 .loading-overlay {
